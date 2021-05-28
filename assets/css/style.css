@@ -4,7 +4,7 @@
     margin: 0;
 }
 body{
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #1e2d3b;
     
 }
@@ -21,27 +21,30 @@ body{
     color: white;
 }
 /* /Utility Classes */
-#root{
+/* #root{
     height: 100%;
     width: 100%;
-}
+} */
 
 #site_main{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     padding: 20px;
 }
 .albums{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px auto;
-    padding: 30px;
+    margin: 20px 10px;
+    padding: 15px;
+    width: 220px;
+    text-align: center;
 }
 
 .album_title{
     margin: 10px auto;
+    text-transform: uppercase;
 }
 .album_artist{
     font-size: 18px;
@@ -49,5 +52,5 @@ body{
 }
 .album_year{
     font-size: 18px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
